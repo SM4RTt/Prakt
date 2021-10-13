@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021.04.20 10:15:03.855.pas,C:\Users\User220\Documents\Borland Studio Projects\Unit1.pas=D:\ИС-31 Невзоров\практика\UnitMain.pas</Transaction>
+    <Transaction>2021.04.20 10:15:03.855.dfm,C:\Users\User220\Documents\Borland Studio Projects\Unit1.dfm=D:\ИС-31 Невзоров\практика\UnitMain.dfm</Transaction>
+    <Transaction>2021.04.20 10:15:36.537.bdsproj,C:\Users\User220\Documents\Borland Studio Projects\Project1.bdsproj=D:\ИС-31 Невзоров\практика\ProjectPostuplenie.bdsproj</Transaction>
+    <Transaction>2021.04.20 10:23:16.294.pas,D:\ИС-31 Невзоров\практика\Unit1.pas=D:\ИС-31 Невзоров\практика\UnitBD.pas</Transaction>
+    <Transaction>2021.04.20 10:23:16.294.dfm,D:\ИС-31 Невзоров\практика\Unit1.dfm=D:\ИС-31 Невзоров\практика\UnitBD.dfm</Transaction>
+    <Transaction>2021.04.20 10:30:03.278.pas,D:\ИС-31 Невзоров\практика\Unit1.pas=D:\ИС-31 Невзоров\практика\UnitPostuplenie.pas</Transaction>
+    <Transaction>2021.04.20 10:30:03.278.dfm,D:\ИС-31 Невзоров\практика\Unit1.dfm=D:\ИС-31 Невзоров\практика\UnitPostuplenie.dfm</Transaction>
+    <Transaction>2021.04.20 10:55:37.487.pas,D:\ИС-31 Невзоров\практика\Unit1.pas=D:\ИС-31 Невзоров\практика\UnitPostuplenie1.pas</Transaction>
+    <Transaction>2021.04.20 10:55:37.487.dfm,D:\ИС-31 Невзоров\практика\Unit1.dfm=D:\ИС-31 Невзоров\практика\UnitPostuplenie1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
