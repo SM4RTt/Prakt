@@ -15,7 +15,6 @@ object DataBD: TDataBD
     Top = 56
   end
   object ADOPostuplenie: TADOTable
-    Active = True
     Connection = ADOPost
     CursorType = ctStatic
     TableName = 'Postuplenie'

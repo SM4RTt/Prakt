@@ -10,11 +10,11 @@ type
     ADOPost: TADOConnection;
     ADOPostuplenie: TADOTable;
     DataPostuplenie: TDataSource;
-    ADOPostuplenieid_post: TIntegerField;
-    ADOPostupleniename: TStringField;
+    ADOPostuplenieid_post: TAutoIncField;
+    ADOPostupleniename: TWideStringField;
     ADOPostupleniesumma: TIntegerField;
-    ADOPostuplenievid: TStringField;
-    ADOPostupleniedata: TWideStringField;
+    ADOPostuplenievid: TWideStringField;
+    ADOPostupleniedata: TDateTimeField;
   private
     { Private declarations }
   public
