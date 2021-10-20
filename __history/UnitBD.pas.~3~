@@ -10,16 +10,15 @@ type
     ADOPost: TADOConnection;
     ADOPostuplenie: TADOTable;
     DataPostuplenie: TDataSource;
-    ADOPunkt: TADOTable;
-    DataPunkt: TDataSource;
-    ADOPunktid_punkt: TIntegerField;
-    ADOPunktname: TStringField;
     ADOPostuplenieid_post: TIntegerField;
     ADOPostupleniename: TStringField;
     ADOPostupleniesumma: TIntegerField;
     ADOPostuplenievid: TStringField;
     ADOPostupleniedata: TWideStringField;
-    ADOPostuplenieid_punkt: TIntegerField;
+    ADOPunkt: TADOTable;
+    DataPunkt: TDataSource;
+    ADOPunktid_punkt: TIntegerField;
+    ADOPunktname: TStringField;
   private
     { Private declarations }
   public

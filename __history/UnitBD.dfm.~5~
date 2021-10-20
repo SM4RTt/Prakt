@@ -18,7 +18,6 @@ object DataBD: TDataBD
     Top = 56
   end
   object ADOPostuplenie: TADOTable
-    Active = True
     Connection = ADOPost
     CursorType = ctStatic
     TableName = 'Postuplenie'
@@ -61,7 +60,6 @@ object DataBD: TDataBD
   object ADOPunkt: TADOTable
     Connection = ADOPost
     CursorType = ctStatic
-    TableDirect = True
     TableName = 'Nas_punkt'
     Left = 160
     Top = 48

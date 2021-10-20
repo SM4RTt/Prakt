@@ -29,28 +29,19 @@ object DataBD: TDataBD
       Visible = False
     end
     object ADOPostupleniename: TStringField
-      DisplayLabel = #1053#1072#1079#1074#1072#1085#1080#1077
       FieldName = 'name'
       Size = 50
     end
     object ADOPostupleniesumma: TIntegerField
-      DisplayLabel = #1057#1091#1084#1084#1072
       FieldName = 'summa'
     end
     object ADOPostuplenievid: TStringField
-      DisplayLabel = #1042#1080#1076
       FieldName = 'vid'
       Size = 50
     end
     object ADOPostupleniedata: TWideStringField
-      DisplayLabel = #1044#1072#1090#1072
       FieldName = 'data'
-      EditMask = '!99/99/0000;1;_'
       Size = 10
-    end
-    object ADOPostuplenieid_punkt: TIntegerField
-      FieldName = 'id_punkt'
-      Visible = False
     end
   end
   object DataPostuplenie: TDataSource
@@ -59,9 +50,9 @@ object DataBD: TDataBD
     Top = 96
   end
   object ADOPunkt: TADOTable
+    Active = True
     Connection = ADOPost
     CursorType = ctStatic
-    TableDirect = True
     TableName = 'Nas_punkt'
     Left = 160
     Top = 48
