@@ -6,10 +6,7 @@ object DataBD: TDataBD
     Connected = True
     ConnectionString = 
       'Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security In' +
-      'fo=False;Initial Catalog=Admin;Data Source=DESKTOP-0808NHM;Use P' +
-      'rocedure for Prepare=1;Auto Translate=True;Packet Size=4096;Work' +
-      'station ID=DESKTOP-0808NHM;Use Encryption for Data=False;Tag wit' +
-      'h column collation when possible=False'
+      'fo=False;Initial Catalog=Admin;Data Source=DESKTOP-0808NHM'
     ConnectOptions = coAsyncConnect
     LoginPrompt = False
     Mode = cmShareDenyNone
@@ -47,26 +44,6 @@ object DataBD: TDataBD
   object DataPostuplenie: TDataSource
     DataSet = ADOPostuplenie
     Left = 88
-    Top = 96
-  end
-  object ADOPunkt: TADOTable
-    Active = True
-    Connection = ADOPost
-    CursorType = ctStatic
-    TableName = 'Nas_punkt'
-    Left = 160
-    Top = 48
-    object ADOPunktid_punkt: TIntegerField
-      FieldName = 'id_punkt'
-    end
-    object ADOPunktname: TStringField
-      FieldName = 'name'
-      Size = 50
-    end
-  end
-  object DataPunkt: TDataSource
-    DataSet = ADOPunkt
-    Left = 160
     Top = 96
   end
 end

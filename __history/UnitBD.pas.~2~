@@ -15,10 +15,6 @@ type
     ADOPostupleniesumma: TIntegerField;
     ADOPostuplenievid: TStringField;
     ADOPostupleniedata: TWideStringField;
-    ADOPunkt: TADOTable;
-    DataPunkt: TDataSource;
-    ADOPunktid_punkt: TIntegerField;
-    ADOPunktname: TStringField;
   private
     { Private declarations }
   public
