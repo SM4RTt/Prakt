@@ -22,11 +22,6 @@ type
     ADOPostuplenieid_punkt: TIntegerField;
     ADOQuery1: TADOQuery;
     DataSourse1: TDataSource;
-    ADOQuery1name: TStringField;
-    ADOQuery1summa: TIntegerField;
-    ADOQuery1vid: TStringField;
-    ADOQuery1data: TWideStringField;
-    ADOQuery1name_1: TStringField;
   private
     { Private declarations }
   public

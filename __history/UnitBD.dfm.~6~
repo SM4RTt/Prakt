@@ -1,7 +1,7 @@
 object DataBD: TDataBD
   OldCreateOrder = False
-  Height = 308
-  Width = 473
+  Height = 198
+  Width = 281
   object ADOPost: TADOConnection
     Connected = True
     ConnectionString = 
@@ -30,24 +30,20 @@ object DataBD: TDataBD
     end
     object ADOPostupleniename: TStringField
       DisplayLabel = #1053#1072#1079#1074#1072#1085#1080#1077
-      DisplayWidth = 59
       FieldName = 'name'
       Size = 50
     end
     object ADOPostupleniesumma: TIntegerField
       DisplayLabel = #1057#1091#1084#1084#1072
-      DisplayWidth = 12
       FieldName = 'summa'
     end
     object ADOPostuplenievid: TStringField
       DisplayLabel = #1042#1080#1076
-      DisplayWidth = 60
       FieldName = 'vid'
       Size = 50
     end
     object ADOPostupleniedata: TWideStringField
       DisplayLabel = #1044#1072#1090#1072
-      DisplayWidth = 12
       FieldName = 'data'
       EditMask = '!99/99/0000;1;_'
       Size = 10
@@ -80,50 +76,6 @@ object DataBD: TDataBD
   object DataPunkt: TDataSource
     DataSet = ADOPunkt
     Left = 160
-    Top = 96
-  end
-  object ADOQuery1: TADOQuery
-    Active = True
-    Connection = ADOPost
-    CursorType = ctStatic
-    Parameters = <>
-    SQL.Strings = (
-      
-        'select postuplenie.name, postuplenie.summa, postuplenie.vid, pos' +
-        'tuplenie.data, Nas_punkt.name'
-      'from Postuplenie, Nas_punkt'
-      'where Nas_punkt.id_punkt=Postuplenie.id_punkt;')
-    Left = 240
-    Top = 48
-    object ADOQuery1name: TStringField
-      DisplayLabel = #1053#1072#1079#1074#1072#1085#1080#1077
-      FieldName = 'name'
-      Size = 50
-    end
-    object ADOQuery1summa: TIntegerField
-      DisplayLabel = #1057#1091#1084#1084#1072
-      FieldName = 'summa'
-    end
-    object ADOQuery1vid: TStringField
-      DisplayLabel = #1042#1080#1076
-      FieldName = 'vid'
-      Size = 50
-    end
-    object ADOQuery1data: TWideStringField
-      DisplayLabel = #1044#1072#1090#1072
-      FieldName = 'data'
-      EditMask = '!9999-99-00;1;_'
-      Size = 10
-    end
-    object ADOQuery1name_1: TStringField
-      DisplayLabel = #1053#1072#1089#1077#1083#1077#1085#1085#1099#1081' '#1087#1091#1085#1082#1090
-      FieldName = 'name_1'
-      Size = 50
-    end
-  end
-  object DataSourse1: TDataSource
-    DataSet = ADOQuery1
-    Left = 240
     Top = 96
   end
 end

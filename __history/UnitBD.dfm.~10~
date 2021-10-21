@@ -112,7 +112,7 @@ object DataBD: TDataBD
     object ADOQuery1data: TWideStringField
       DisplayLabel = #1044#1072#1090#1072
       FieldName = 'data'
-      EditMask = '!9999-99-00;1;_'
+      EditMask = '!99.99.0000;1;_'
       Size = 10
     end
     object ADOQuery1name_1: TStringField

@@ -222,7 +222,7 @@ object FormPostuplenie: TFormPostuplenie
           AllowVectorExport = True
           Left = 3.779530000000000000
           Top = 90.708720000000000000
-          Width = 291.023810000000000000
+          Width = 347.716760000000000000
           Height = 22.677180000000000000
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
@@ -237,9 +237,9 @@ object FormPostuplenie: TFormPostuplenie
         end
         object Memo3: TfrxMemoView
           AllowVectorExport = True
-          Left = 294.803340000000000000
+          Left = 351.496290000000000000
           Top = 90.708720000000000000
-          Width = 94.488250000000000000
+          Width = 132.283550000000000000
           Height = 22.677180000000000000
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
@@ -254,9 +254,9 @@ object FormPostuplenie: TFormPostuplenie
         end
         object Memo4: TfrxMemoView
           AllowVectorExport = True
-          Left = 532.913730000000000000
+          Left = 483.779840000000000000
           Top = 90.708720000000000000
-          Width = 132.283550000000000000
+          Width = 154.960730000000000000
           Height = 22.677180000000000000
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
@@ -271,9 +271,9 @@ object FormPostuplenie: TFormPostuplenie
         end
         object Memo5: TfrxMemoView
           AllowVectorExport = True
-          Left = 665.197280000000000000
+          Left = 638.740570000000000000
           Top = 90.708720000000000000
-          Width = 128.504020000000000000
+          Width = 154.960730000000000000
           Height = 22.677180000000000000
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
@@ -284,22 +284,6 @@ object FormPostuplenie: TFormPostuplenie
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Memo.UTF8 = (
             #1056#1038#1057#1107#1056#1112#1056#1112#1056#176' '#1056#1169#1056#1109#1057#8230#1056#1109#1056#1169#1056#1109#1056#1030)
-          ParentFont = False
-        end
-        object Memo7: TfrxMemoView
-          AllowVectorExport = True
-          Left = 389.291590000000000000
-          Top = 90.708720000000000000
-          Width = 143.622140000000000000
-          Height = 22.677180000000000000
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clTeal
-          Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = [fsBold]
-          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Memo.UTF8 = (
-            #1056#1116#1056#176#1057#1027#1056#181#1056#187#1056#181#1056#1029#1056#1029#1057#8249#1056#8470' '#1056#1111#1057#1107#1056#1029#1056#1108#1057#8218)
           ParentFont = False
         end
       end
@@ -315,7 +299,7 @@ object FormPostuplenie: TFormPostuplenie
         object frxPostupleniename: TfrxMemoView
           AllowVectorExport = True
           Left = 3.779530000000000000
-          Width = 291.023810000000000000
+          Width = 347.716760000000000000
           Height = 18.897650000000000000
           DataField = 'name'
           DataSet = frxDBDataset1
@@ -332,8 +316,8 @@ object FormPostuplenie: TFormPostuplenie
         end
         object frxPostuplenievid: TfrxMemoView
           AllowVectorExport = True
-          Left = 294.803340000000000000
-          Width = 94.488250000000000000
+          Left = 351.496290000000000000
+          Width = 132.283550000000000000
           Height = 18.897650000000000000
           DataField = 'vid'
           DataSet = frxDBDataset1
@@ -350,8 +334,8 @@ object FormPostuplenie: TFormPostuplenie
         end
         object frxPostupleniedata: TfrxMemoView
           AllowVectorExport = True
-          Left = 532.913730000000000000
-          Width = 132.283550000000000000
+          Left = 483.779840000000000000
+          Width = 154.960730000000000000
           Height = 18.897650000000000000
           DataField = 'data'
           DataSet = frxDBDataset1
@@ -368,8 +352,8 @@ object FormPostuplenie: TFormPostuplenie
         end
         object frxPostupleniesumma: TfrxMemoView
           AllowVectorExport = True
-          Left = 665.197280000000000000
-          Width = 128.504020000000000000
+          Left = 638.740570000000000000
+          Width = 154.960730000000000000
           Height = 18.897650000000000000
           DataField = 'summa'
           DataSet = frxDBDataset1
@@ -384,25 +368,6 @@ object FormPostuplenie: TFormPostuplenie
             '[frxPostuplenie."summa"]')
           ParentFont = False
         end
-        object frxDBPunktname: TfrxMemoView
-          IndexTag = 1
-          AllowVectorExport = True
-          Left = 389.291590000000000000
-          Width = 143.622140000000000000
-          Height = 18.897650000000000000
-          DataField = 'name'
-          DataSet = frxDBDataset2
-          DataSetName = 'frxDBPunkt'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
-          Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = []
-          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Memo.UTF8 = (
-            '[frxDBPunkt."name"]')
-          ParentFont = False
-        end
       end
       object Footer1: TfrxFooter
         FillType = ftBrush
@@ -412,7 +377,7 @@ object FormPostuplenie: TFormPostuplenie
         Width = 793.701300000000000000
         object Memo6: TfrxMemoView
           AllowVectorExport = True
-          Left = 510.236550000000000000
+          Left = 483.779840000000000000
           Width = 154.960730000000000000
           Height = 18.897650000000000000
           DisplayFormat.DecimalSeparator = ','
@@ -428,8 +393,8 @@ object FormPostuplenie: TFormPostuplenie
         end
         object SysMemo1: TfrxSysMemoView
           AllowVectorExport = True
-          Left = 665.197280000000000000
-          Width = 128.504020000000000000
+          Left = 638.740570000000000000
+          Width = 154.960730000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
