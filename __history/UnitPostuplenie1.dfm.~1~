@@ -2,7 +2,7 @@ object FormPostuplenie1: TFormPostuplenie1
   Left = 0
   Top = 0
   Caption = #1044#1086#1073#1072#1074#1080#1090#1100' '#1087#1086#1089#1090#1091#1087#1083#1077#1085#1080#1077
-  ClientHeight = 288
+  ClientHeight = 220
   ClientWidth = 389
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -56,23 +56,10 @@ object FormPostuplenie1: TFormPostuplenie1
   end
   object Label4: TLabel
     Left = 8
-    Top = 184
+    Top = 144
     Width = 194
     Height = 19
     Caption = #1042#1074#1077#1076#1080#1090#1077' '#1076#1072#1090#1091' '#1087#1086#1089#1090#1091#1087#1083#1077#1085#1080#1103
-    Font.Charset = RUSSIAN_CHARSET
-    Font.Color = clMaroon
-    Font.Height = -16
-    Font.Name = 'Times New Roman'
-    Font.Style = [fsBold]
-    ParentFont = False
-  end
-  object Label5: TLabel
-    Left = 8
-    Top = 144
-    Width = 201
-    Height = 19
-    Caption = #1042#1074#1077#1076#1080#1090#1077' '#1085#1072#1089#1077#1083#1077#1085#1085#1099#1081' '#1087#1091#1085#1082#1090
     Font.Charset = RUSSIAN_CHARSET
     Font.Color = clMaroon
     Font.Height = -16
@@ -86,7 +73,7 @@ object FormPostuplenie1: TFormPostuplenie1
     Width = 121
     Height = 21
     DataField = 'name'
-    DataSource = DataBD.DataSourse1
+    DataSource = DataBD.DataPostuplenie
     TabOrder = 0
   end
   object DBEdit2: TDBEdit
@@ -95,7 +82,7 @@ object FormPostuplenie1: TFormPostuplenie1
     Width = 121
     Height = 21
     DataField = 'summa'
-    DataSource = DataBD.DataSourse1
+    DataSource = DataBD.DataPostuplenie
     TabOrder = 1
   end
   object DBEdit3: TDBEdit
@@ -104,22 +91,22 @@ object FormPostuplenie1: TFormPostuplenie1
     Width = 121
     Height = 21
     DataField = 'vid'
-    DataSource = DataBD.DataSourse1
+    DataSource = DataBD.DataPostuplenie
     TabOrder = 2
   end
   object DBEdit4: TDBEdit
     Left = 247
-    Top = 184
-    Width = 117
+    Top = 144
+    Width = 119
     Height = 21
     DataField = 'data'
-    DataSource = DataBD.DataSourse1
+    DataSource = DataBD.DataPostuplenie
     MaxLength = 10
     TabOrder = 3
   end
   object Button1: TButton
-    Left = 29
-    Top = 232
+    Left = 32
+    Top = 184
     Width = 89
     Height = 25
     Caption = #1044#1086#1073#1072#1074#1080#1090#1100' '#1077#1097#1077
@@ -127,8 +114,8 @@ object FormPostuplenie1: TFormPostuplenie1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 163
-    Top = 232
+    Left = 166
+    Top = 184
     Width = 75
     Height = 25
     Caption = #1044#1086#1073#1072#1074#1080#1090#1100
@@ -136,21 +123,12 @@ object FormPostuplenie1: TFormPostuplenie1
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 277
-    Top = 232
+    Left = 280
+    Top = 184
     Width = 75
     Height = 25
     Caption = #1047#1072#1082#1088#1099#1090#1100
     TabOrder = 6
     OnClick = Button3Click
-  end
-  object DBEdit5: TDBEdit
-    Left = 247
-    Top = 145
-    Width = 121
-    Height = 21
-    DataField = 'name_1'
-    DataSource = DataBD.DataSourse1
-    TabOrder = 7
   end
 end

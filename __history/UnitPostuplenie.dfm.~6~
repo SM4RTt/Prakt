@@ -130,22 +130,22 @@ object FormPostuplenie: TFormPostuplenie
   object MaskEdit1: TMaskEdit
     Left = 146
     Top = 293
-    Width = 118
+    Width = 120
     Height = 21
-    EditMask = '!9999-99-00;1;_'
+    EditMask = '!99.99.0000;1;_'
     MaxLength = 10
     TabOrder = 9
-    Text = '    -  -  '
+    Text = '  .  .    '
   end
   object MaskEdit2: TMaskEdit
     Left = 352
     Top = 293
-    Width = 118
+    Width = 120
     Height = 21
-    EditMask = '!9999-99-00;1;_'
+    EditMask = '!99.99.0000;1;_'
     MaxLength = 10
     TabOrder = 10
-    Text = '    -  -  '
+    Text = '  .  .    '
   end
   object frxDBDataset1: TfrxDBDataset
     UserName = 'frxPostuplenie'

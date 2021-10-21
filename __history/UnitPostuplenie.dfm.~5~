@@ -130,22 +130,22 @@ object FormPostuplenie: TFormPostuplenie
   object MaskEdit1: TMaskEdit
     Left = 146
     Top = 293
-    Width = 118
+    Width = 120
     Height = 21
-    EditMask = '!9999-99-00;1;_'
+    EditMask = '!99.99.0000;1;_'
     MaxLength = 10
     TabOrder = 9
-    Text = '    -  -  '
+    Text = '  .  .    '
   end
   object MaskEdit2: TMaskEdit
     Left = 352
     Top = 293
-    Width = 118
+    Width = 120
     Height = 21
-    EditMask = '!9999-99-00;1;_'
+    EditMask = '!99.99.0000;1;_'
     MaxLength = 10
     TabOrder = 10
-    Text = '    -  -  '
+    Text = '  .  .    '
   end
   object frxDBDataset1: TfrxDBDataset
     UserName = 'frxPostuplenie'
@@ -179,6 +179,10 @@ object FormPostuplenie: TFormPostuplenie
     Left = 448
     Top = 208
     Datasets = <
+      item
+        DataSet = frxDBDataset2
+        DataSetName = 'frxDBPunkt'
+      end
       item
         DataSet = frxDBDataset1
         DataSetName = 'frxPostuplenie'
@@ -445,5 +449,34 @@ object FormPostuplenie: TFormPostuplenie
         end
       end
     end
+  end
+  object ReportPunkt: TfrxReport
+    Version = '6.9.3'
+    DotMatrixReport = False
+    IniFile = '\Software\Fast Reports'
+    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick, pbCopy, pbSelection]
+    PreviewOptions.Zoom = 1.000000000000000000
+    PrintOptions.Printer = 'Default'
+    PrintOptions.PrintOnSheet = 0
+    ReportOptions.CreateDate = 44490.485862928240000000
+    ReportOptions.LastChange = 44490.485862928240000000
+    ScriptLanguage = 'PascalScript'
+    ScriptText.Strings = (
+      'begin'
+      ''
+      'end.')
+    Left = 448
+    Top = 248
+    Datasets = <>
+    Variables = <>
+    Style = <>
+  end
+  object frxDBDataset2: TfrxDBDataset
+    UserName = 'frxDBPunkt'
+    CloseDataSource = False
+    DataSet = DataBD.ADOPunkt
+    BCDToCurrency = False
+    Left = 408
+    Top = 248
   end
 end
