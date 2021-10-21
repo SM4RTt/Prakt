@@ -23,9 +23,6 @@ type
     Label2: TLabel;
     frxDBDataset1: TfrxDBDataset;
     ReportPostuplenie: TfrxReport;
-    Label3: TLabel;
-    DBGrid2: TDBGrid;
-    procedure DBGrid2CellClick(Column: TColumn);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
@@ -92,13 +89,6 @@ end;
 procedure TFormPostuplenie.Button7Click(Sender: TObject);
 begin
 dataBD.ADOquery1.Filtered:=false
-end;
-
-procedure TFormPostuplenie.DBGrid2CellClick(Column: TColumn);
-begin
-dataBD.ADOQuery1.Filtered:=true;
-
-dataBD.ADOQuery1.Filter:='Id_punkt='''+DataBD.ADOPunkt.Fieldbyname('Id_punkt').AsString+'''';
 end;
 
 procedure TFormPostuplenie.FormClose(Sender: TObject; var Action: TCloseAction);

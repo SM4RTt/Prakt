@@ -17,8 +17,8 @@ object FormPostuplenie: TFormPostuplenie
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 440
-    Top = 264
+    Left = 432
+    Top = 344
     Width = 162
     Height = 19
     Caption = #1059#1082#1072#1078#1080#1090#1077' '#1076#1080#1072#1087#1086#1079#1086#1085' '#1076#1072#1090
@@ -30,8 +30,8 @@ object FormPostuplenie: TFormPostuplenie
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 416
-    Top = 300
+    Left = 408
+    Top = 380
     Width = 20
     Height = 19
     Caption = #1054#1090
@@ -43,8 +43,8 @@ object FormPostuplenie: TFormPostuplenie
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 416
-    Top = 359
+    Left = 408
+    Top = 439
     Width = 19
     Height = 19
     Caption = #1044#1086
@@ -123,8 +123,8 @@ object FormPostuplenie: TFormPostuplenie
     OnClick = Button5Click
   end
   object Button6: TButton
-    Left = 479
-    Top = 415
+    Left = 543
+    Top = 263
     Width = 75
     Height = 25
     Caption = #1055#1086#1080#1089#1082
@@ -132,8 +132,8 @@ object FormPostuplenie: TFormPostuplenie
     OnClick = Button6Click
   end
   object Button7: TButton
-    Left = 479
-    Top = 446
+    Left = 543
+    Top = 294
     Width = 75
     Height = 25
     Caption = #1057#1073#1088#1086#1089
@@ -141,8 +141,8 @@ object FormPostuplenie: TFormPostuplenie
     OnClick = Button7Click
   end
   object MaskEdit1: TMaskEdit
-    Left = 466
-    Top = 301
+    Left = 458
+    Top = 381
     Width = 118
     Height = 21
     EditMask = '!9999-99-00;1;_'
@@ -151,28 +151,14 @@ object FormPostuplenie: TFormPostuplenie
     Text = '    -  -  '
   end
   object MaskEdit2: TMaskEdit
-    Left = 466
-    Top = 357
+    Left = 458
+    Top = 437
     Width = 118
     Height = 21
     EditMask = '!9999-99-00;1;_'
     MaxLength = 10
     TabOrder = 10
     Text = '    -  -  '
-  end
-  object DBGrid2: TDBGrid
-    Left = 34
-    Top = 264
-    Width = 249
-    Height = 273
-    DataSource = DataBD.DataPunkt
-    TabOrder = 11
-    TitleFont.Charset = DEFAULT_CHARSET
-    TitleFont.Color = clWindowText
-    TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
-    TitleFont.Style = []
-    OnCellClick = DBGrid2CellClick
   end
   object frxDBDataset1: TfrxDBDataset
     UserName = 'frxPostuplenie'

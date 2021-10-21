@@ -96,9 +96,9 @@ end;
 
 procedure TFormPostuplenie.DBGrid2CellClick(Column: TColumn);
 begin
-dataBD.ADOQuery1.Filtered:=true;
+dataBD.ADOPunkt.Filtered:=true;
 
-dataBD.ADOQuery1.Filter:='Id_punkt='''+DataBD.ADOPunkt.Fieldbyname('Id_punkt').AsString+'''';
+dataBD.ADOPunkt.Filter:='Id_punkt='''+DataBD.ADOQuery1.Fieldbyname('Id_punkt').AsString+'''';
 end;
 
 procedure TFormPostuplenie.FormClose(Sender: TObject; var Action: TCloseAction);

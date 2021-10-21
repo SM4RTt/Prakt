@@ -172,7 +172,6 @@ object FormPostuplenie: TFormPostuplenie
     TitleFont.Height = -11
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
-    OnCellClick = DBGrid2CellClick
   end
   object frxDBDataset1: TfrxDBDataset
     UserName = 'frxPostuplenie'

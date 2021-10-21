@@ -2,7 +2,7 @@ object FormPostuplenie: TFormPostuplenie
   Left = 0
   Top = 0
   Caption = #1046#1091#1088#1085#1072#1083' '#1087#1086#1089#1090#1091#1087#1083#1077#1085#1080#1103' '#1073#1102#1076#1078#1077#1090#1085#1099#1093' '#1089#1088#1077#1076#1089#1090#1074
-  ClientHeight = 599
+  ClientHeight = 328
   ClientWidth = 626
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object FormPostuplenie: TFormPostuplenie
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 440
+    Left = 224
     Top = 264
     Width = 162
     Height = 19
@@ -30,24 +30,11 @@ object FormPostuplenie: TFormPostuplenie
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 416
-    Top = 300
-    Width = 20
+    Left = 8
+    Top = 292
+    Width = 101
     Height = 19
-    Caption = #1054#1090
-    Font.Charset = RUSSIAN_CHARSET
-    Font.Color = clMaroon
-    Font.Height = -16
-    Font.Name = 'Times New Roman'
-    Font.Style = [fsBold]
-    ParentFont = False
-  end
-  object Label3: TLabel
-    Left = 416
-    Top = 359
-    Width = 19
-    Height = 19
-    Caption = #1044#1086
+    Caption = #1054#1090#1073#1086#1088' '#1087#1086' '#1076#1072#1090#1077
     Font.Charset = RUSSIAN_CHARSET
     Font.Color = clMaroon
     Font.Height = -16
@@ -123,8 +110,8 @@ object FormPostuplenie: TFormPostuplenie
     OnClick = Button5Click
   end
   object Button6: TButton
-    Left = 479
-    Top = 415
+    Left = 543
+    Top = 263
     Width = 75
     Height = 25
     Caption = #1055#1086#1080#1089#1082
@@ -132,8 +119,8 @@ object FormPostuplenie: TFormPostuplenie
     OnClick = Button6Click
   end
   object Button7: TButton
-    Left = 479
-    Top = 446
+    Left = 543
+    Top = 294
     Width = 75
     Height = 25
     Caption = #1057#1073#1088#1086#1089
@@ -141,8 +128,8 @@ object FormPostuplenie: TFormPostuplenie
     OnClick = Button7Click
   end
   object MaskEdit1: TMaskEdit
-    Left = 466
-    Top = 301
+    Left = 146
+    Top = 293
     Width = 118
     Height = 21
     EditMask = '!9999-99-00;1;_'
@@ -151,28 +138,14 @@ object FormPostuplenie: TFormPostuplenie
     Text = '    -  -  '
   end
   object MaskEdit2: TMaskEdit
-    Left = 466
-    Top = 357
+    Left = 352
+    Top = 293
     Width = 118
     Height = 21
     EditMask = '!9999-99-00;1;_'
     MaxLength = 10
     TabOrder = 10
     Text = '    -  -  '
-  end
-  object DBGrid2: TDBGrid
-    Left = 34
-    Top = 264
-    Width = 249
-    Height = 273
-    DataSource = DataBD.DataPunkt
-    TabOrder = 11
-    TitleFont.Charset = DEFAULT_CHARSET
-    TitleFont.Color = clWindowText
-    TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
-    TitleFont.Style = []
-    OnCellClick = DBGrid2CellClick
   end
   object frxDBDataset1: TfrxDBDataset
     UserName = 'frxPostuplenie'

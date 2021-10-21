@@ -27,7 +27,6 @@ type
     ADOQuery1vid: TStringField;
     ADOQuery1data: TWideStringField;
     ADOQuery1name_1: TStringField;
-    ADOQuery1id_punkt: TIntegerField;
   private
     { Private declarations }
   public
